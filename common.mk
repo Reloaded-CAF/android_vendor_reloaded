@@ -159,6 +159,9 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=1
 endif
 
+# Use release-keys with if possible
+include vendor/reloaded/config/release_keys.mk
+
 $(call inherit-product, vendor/reloaded/themes/themes.mk)
 
 $(call inherit-product-if-exists, vendor/extra/product.mk)
