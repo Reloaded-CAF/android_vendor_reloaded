@@ -111,9 +111,7 @@ PRODUCT_PACKAGES += \
 
 # Snapdragon packages
 PRODUCT_PACKAGES += \
-    MusicFX \
-    SnapdragonGallery \
-    SnapdragonMusic
+    SnapdragonGallery
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
