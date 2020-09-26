@@ -11,3 +11,6 @@ set_prop(system_server, theme_prop)
 allow system_server theme_data_file:dir { create_dir_perms relabelto rw_dir_perms };
 allow system_server theme_data_file:file { create_file_perms relabelto rw_file_perms };
 allow system_server substratum_service:service_manager find;
+
+# allow longshot service
+add_service(system_server, longshot_service)
