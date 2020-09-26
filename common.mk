@@ -214,7 +214,11 @@ PRODUCT_PACKAGES += \
 # Pixel Launcher
 PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
-    
+
+# Retro Music Player
+PRODUCT_PACKAGES += \
+    RetroMusicPlayer
+
 # WallpaperPicker
 PRODUCT_PACKAGES += \
     WallpaperPickerPrebuilt
