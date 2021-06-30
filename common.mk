@@ -208,6 +208,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3QuickStep
 
+# DuckDuckGo
+PRODUCT_PACKAGES += \
+    DuckDuckGo
+
 # Versioning
 include vendor/reloaded/config/version.mk
 
